@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  background-color: pink;
+  height: 100%;
+  color: purple;
+}
+
+.wrapper {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileName {
+  text-align: center;
+}
+
+.iconBorder {
+  border: 2px solid purple;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+}
+
+.nameContainer {
+  border-bottom: 2px solid purple;
+  border-right: 1px solid purple;
+}
+
+.adderessContainer {
+  border-bottom: 2px solid purple;
+  border-left: 1px solid purple;
+}
+
+.name {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.role {
+  font-size: 0.6rem;
+}
+
+.address {
+  font-size: 0.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .iconBorder {
+    width: 5rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .role {
+    font-size: 1rem;
+  }
+
+  .address {
+    font-size: 1rem;
+  }
+}
+
+.work {
+  display: flex;
+}
+
+.para {
+  font-size: 0.8rem;
+}
+
+.desc {
+  margin-left: 1rem;
+}
+
+.title {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 1rem;
+  }
+
+  .desc {
+    margin-left: 2rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
+/* skill section */
+
+.skillsContainer {
+  border-top: 2px solid purple;
+  border-bottom: 2px solid purple;
+  border-right: 2px solid purple;
+  padding-top: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .skills {
+    flex-direction: row;
+    gap: 0.4rem;
+  }
+}
+
+.skillName {
+  width: 50%;
+}
+
+.points {
+  width: 50%;
+}
+
+.awardsContainer {
+  padding-top: 1rem;
+  border-top: 2px solid purple;
+  border-bottom: 2px solid purple;
+}
+
+.interestsContainer {
+  border-bottom: 2px solid purple;
+  display: flex;
+  justify-content: space-around;
+}
+
+.interest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconBorderfill {
+  background-color: purple;
+  color: pink;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .iconBorderfill {
+    width: 5rem;
+  }
+}
